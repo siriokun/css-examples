@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+}
+a {
+  color: steelblue;
+  text-decoration: none;
+}
+.logo {
+  margin: 0;
+  text-align: center;
+}
+.logo a {
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.nav li {
+  flex: 1;
+  list-style: none;
+}
+.nav a {
+  background: #000;
+  color: #fff;
+  display: block;
+  padding: 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.nav a:hover {
+  background: steelblue;
+}
+.content {
+  min-height: 220px;
+  max-width: 1000px;
+  margin: 100px auto;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  body {
+    margin-bottom: 80px;
+  }
+  .header {
+    background: #000;
+  }
+  .nav {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  .nav li:nth-child(0n+1) a {
+    background: blue;
+  }
+  .nav li:nth-child(0n+2) a {
+    background: cyan;
+  }
+  .nav li:nth-child(0n+3) a {
+    background: red;
+  }
+  .nav li:nth-child(0n+4) a {
+    background: green;
+  }
+  .nav li:nth-child(0n+5) a {
+    background: gold;
+  }
+  .nav li a:hover {
+    background: steelblue;
+  }
+  .content {
+    margin: 20px;
+  }
+  .footer {
+    display: none;
+  }
+}
