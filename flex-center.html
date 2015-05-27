@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flex Example</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  body {
+    background: url(https://unsplash.imgix.net/photo-1428677361686-f9d23be145c9?fit=crop&fm=jpg&h=700&q=75&w=1050) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  
+  .center-cover {
+    background: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .center-cover a {
+    color: #fff;
+  }
+  </style>
+</head>
+
+<body>
+  <h1 class="logo center-cover"><a href="#">This text will always be center</a></h1>
+</body>
+
+</html>
