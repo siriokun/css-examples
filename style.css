@@ -63,19 +63,19 @@ a {
     position: fixed;
     width: 100%;
   }
-  .nav li:nth-child(0n+1) a {
+  .nav li:nth-child(n+1) a {
     background: blue;
   }
-  .nav li:nth-child(0n+2) a {
+  .nav li:nth-child(n+2) a {
     background: cyan;
   }
-  .nav li:nth-child(0n+3) a {
+  .nav li:nth-child(n+3) a {
     background: red;
   }
-  .nav li:nth-child(0n+4) a {
+  .nav li:nth-child(n+4) a {
     background: green;
   }
-  .nav li:nth-child(0n+5) a {
+  .nav li:nth-child(n+5) a {
     background: gold;
   }
   .nav li a:hover {
