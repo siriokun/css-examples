@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stacking using Flex</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+        margin: 20px;
+    }
+    
+    .title-section {
+        border-bottom: 1px solid #ccc;
+        max-width: 500px;
+        margin: 40px auto;
+        padding-bottom: 15px;
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+    
+    .title-section>span:first-child {
+        flex-grow: 1;
+    }
+    
+    .title-section>span:last-child {
+        font-size: 60%;
+        color: #999;
+        margin-top: 10px;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <h2 class="title-section"><span>Section Title</span> <span>Description of this section</span></h2>
+    <h2 class="title-section"><span>Section Title</span> <span>
+      <a href="">Tag1</a> / 
+      <a href="">Tag2</a> / 
+      <a href="">Tag3</a> / 
+      <a href="">Tag4</a> / 
+      <a href="">Tag5</a>
+    </span></h2>
+</body>
+
+</html>
