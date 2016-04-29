@@ -54,6 +54,7 @@ a {
 @media (max-width: 768px) {
   body {
     margin-bottom: 80px;
+    word-wrap: break-word;
   }
   .header {
     background: #000;
